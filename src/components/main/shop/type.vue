@@ -17,10 +17,10 @@
     >
       <el-table-column type="selection" align="center" width="45"></el-table-column>
       <el-table-column label="类型名称" prop="name"></el-table-column>
-      <el-table-column prop="goods_type_values" align="center" label="属性标签" width="380">
-        <template slot-scope="scope">
+      <el-table-column prop="goods_type_values.name" align="center" label="属性标签" width="380">
+        <!-- <template slot-scope="scope">
 				{{scope.row.value_list|formatValue}}
-        </template>
+        </template> -->
        
       </el-table-column>
       <el-table-column align="center" prop="order" label="排序"></el-table-column>
